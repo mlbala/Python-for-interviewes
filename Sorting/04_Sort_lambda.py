@@ -32,4 +32,13 @@ print(sort_numbers([1, -5, -3, 2, 4, 11, -19, 9, -2, 5, -6, 7, -4, 2, 6]))
 # The input variable word. We can use any variable name here.
 # The colon :, after which we define the function body.
 # The expression len(word), which is the return value of the function.
-# A lambda function must be a single expression, and it cannot contain multiple statements. It's a convenient way to define simple functions without the need to define a separate function.
+# A lambda function must be a single expression, and it cannot contain multiple statements. 
+# It's a convenient way to define simple functions without the need to define a separate function.
+
+# Challenge
+# Implement the following functions:
+
+# sort_words(words: List[str]) -> List[str] - This function accepts a list of words and returns a new list of words sorted based on their length, in descending order.
+#  Use a lambda function to sort the words by their length.
+# sort_numbers(numbers: List[int]) -> List[int] - This function accepts a list of numbers and returns a new list of numbers sorted based on their absolute value, in ascending order. 
+# Use a lambda function to sort the numbers by their absolute value.
